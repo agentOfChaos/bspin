@@ -4,6 +4,9 @@ from bspinlib import classes, constants
 intsize = constants.getIntSize()
 headerLumps = constants.getHeaderLumps()
 
+#  references:  https://developer.valvesoftware.com/wiki/Source_BSP_File_Format
+#               https://developer.valvesoftware.com/wiki/Lump_file_format
+
 def readHeader(binfile):
     header = classes.BSPHeader()
     header.ident = struct.unpack("i", binfile.read(intsize))[0]
