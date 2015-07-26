@@ -15,5 +15,7 @@ def getLMPOffset():
 def getLumpNames():  # from: https://developer.valvesoftware.com/wiki/Source_BSP_File_Format#Lump_types
     names = ["LUMP_ENTITIES", "LUMP_PLANES", "LUMP_TEXDATA", "LUMP_VERTEXES", "LUMP_VISIBILITY",
              "LUMP_NODES", "LUMP_TEXINFO", "LUMP_FACES", "LUMP_LIGHTING", "LUMP_OCCLUSION",
-             "LUMP_LEAFS", "LUMP_FACEIDS", "LUMP_EDGES", "LUMP_SURFEDGES", "LUMP_MODELS"]
+             "LUMP_LEAFS", "LUMP_FACEIDS", "LUMP_EDGES", "LUMP_SURFEDGES", "LUMP_MODELS",
+             "LUMP_WORLDLIGHTS", "LUMP_LEAFFACES", "LUMP_LEAFBRUSHES", "LUMP_BRUSHES", "LUMP_BRUSHSIDES",
+             "LUMP_AREAS", "LUMP_AREAPORTALS "]
     return names
